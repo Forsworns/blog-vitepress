@@ -1,0 +1,776 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--                                                                            -->
+<!-- Copyright (c) 2007 Timmy Brolin.                                           -->
+<!-- Permission is granted to copy, distribute and/or modify this document      -->
+<!-- under the terms of the GNU Free Documentation License, Version 1.2         -->
+<!-- or any later version published by the Free Software Foundation;            -->
+<!-- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. -->
+<!--                                                                            -->
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="1520"
+   height="1080"
+>
+<style type="text/css"><![CDATA[
+   text {font-family: Arial, sans-serif}
+]]></style>
+<g transform="scale(2.2 2.2)">
+  <g transform="translate(150 50)">
+    <path id="datapath" stroke="orange" stroke-width="2" fill="none" d="M-100,100               H450              A15,15 0 0,1 450,130              H235              A10,10 0 0,0 225,140                V240              A10,10 0 0,1 215,250              H90              A15,15 0 0,1 90,220              H185              A10,10 0 0,0 195,210              V140               A10,10 0 0,0 185,130              H-100"/>
+
+
+
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte0" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte1" begin="byte0.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte2" begin="byte1.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte3" begin="byte2.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte4" begin="byte3.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte5" begin="byte4.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte6" begin="byte5.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte7" begin="byte6.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte8" begin="byte7.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte9" begin="byte8.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte10" begin="byte9.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte11" begin="byte10.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte12" begin="byte11.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="byte13" begin="byte12.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+
+
+    <text dy="-12" font-size="10">
+      <textPath startOffset="0%" xlink:href="#datapath">
+        Ethernet header 
+        <animate attributeName="startOffset" begin="byte13.begin" from="0%" to="100%" dur="30.3s" repeatCount="1"/>
+      </textPath>
+    </text>
+
+
+
+
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte0" begin="byte13.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte1" begin="ebyte0.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte2" begin="ebyte1.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte3" begin="ebyte2.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte4" begin="ebyte3.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte5" begin="ebyte4.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte6" begin="ebyte5.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte7" begin="ebyte6.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte8" begin="ebyte7.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte9" begin="ebyte8.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte10" begin="ebyte9.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="ebyte11" begin="ebyte10.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+
+
+    <text dy="-12" font-size="10">
+      <textPath startOffset="0%" xlink:href="#datapath">
+        EtherCAT header 
+        <animate attributeName="startOffset" begin="ebyte11.begin" from="0%" to="100%" dur="30.3s" repeatCount="1"/>
+      </textPath>
+    </text>
+
+
+
+
+
+
+    <rect x="-4" y="-9" width="8" height="20" fill="brown" stroke="black">
+      <animateMotion id="dbyte0" begin="ebyte11.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte0.begin+3.5625s" attributeName="fill" keyTimes="0;0.9" values="lightblue;brown" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="brown" stroke="black">
+      <animateMotion id="dbyte1" begin="dbyte0.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte1.begin+3.5625s" attributeName="fill" keyTimes="0;0.9" values="lightblue;brown" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="brown" stroke="black">
+      <animateMotion id="dbyte2" begin="dbyte1.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+      <animate begin="dbyte2.begin+3.5625s" attributeName="fill" keyTimes="0;0.9" values="lightblue;brown" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="brown" stroke="black">
+      <animateMotion id="dbyte3" begin="dbyte2.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+      <animate begin="dbyte3.begin+3.5625s" attributeName="fill" keyTimes="0;0.9" values="lightblue;brown" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="orange" stroke="black">
+      <animateMotion id="dbyte4" begin="dbyte3.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte4.begin+5.8125s" attributeName="fill" keyTimes="0;0.8" values="blue;orange" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte5" begin="dbyte4.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte5.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte6" begin="dbyte5.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte6.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte7" begin="dbyte6.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte7.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte8" begin="dbyte7.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte8.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte9" begin="dbyte8.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte9.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte10" begin="dbyte9.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte10.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte11" begin="dbyte10.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte11.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte12" begin="dbyte11.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte12.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte13" begin="dbyte12.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte13.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte14" begin="dbyte13.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte14.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte15" begin="dbyte14.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte15.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte16" begin="dbyte15.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte16.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte17" begin="dbyte16.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte17.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte18" begin="dbyte17.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte18.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte19" begin="dbyte18.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte19.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="red" stroke="black">
+      <animateMotion id="dbyte20" begin="dbyte19.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte20.begin+10.3125s" attributeName="fill" keyTimes="0;0.8" values="cyan;red" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte21" begin="dbyte20.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte21.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte22" begin="dbyte21.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte22.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte23" begin="dbyte22.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte23.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte24" begin="dbyte23.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte24.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte25" begin="dbyte24.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte25.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte26" begin="dbyte25.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte26.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte27" begin="dbyte26.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte27.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="purple" stroke="black">
+      <animateMotion id="dbyte28" begin="dbyte27.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+      </animateMotion>
+      <animate begin="dbyte28.begin+17.835s" attributeName="fill" keyTimes="0;0.5" values="green;purple" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="magenta" stroke="black">
+      <animateMotion id="dbyte29" begin="dbyte28.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="magenta" stroke="black">
+      <animateMotion id="dbyte30" begin="dbyte29.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="magenta" stroke="black">
+      <animateMotion id="dbyte31" begin="dbyte30.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="magenta" stroke="black">
+      <animateMotion id="dbyte32" begin="dbyte31.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="magenta" stroke="black">
+      <animateMotion id="dbyte33" begin="dbyte32.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+
+
+
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="tbyte0" begin="dbyte33.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="greenyellow" stroke="black">
+      <animateMotion id="tbyte1" begin="tbyte0.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="tbyte2" begin="tbyte1.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="tbyte3" begin="tbyte2.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="tbyte4" begin="tbyte3.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+    <rect x="-4" y="-9" width="8" height="20" fill="pink" stroke="black">
+      <animateMotion id="tbyte5" begin="tbyte4.begin+0.15s" dur="30.3s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#datapath"/>
+        </animateMotion>
+    </rect>
+
+    <text dy="-12" font-size="10">
+      <textPath startOffset="0%" xlink:href="#datapath">
+        WC
+        <animate attributeName="startOffset" begin="tbyte1.begin+0.05s" from="0%" to="100%" dur="30.3s" repeatCount="1"/>
+      </textPath>
+    </text>
+
+    <text dy="-12" font-size="10">
+      <textPath startOffset="0%" xlink:href="#datapath">
+        FCS
+        <animate attributeName="startOffset" begin="tbyte5.begin" from="0%" to="100%" dur="30.3s" repeatCount="1"/>
+      </textPath>
+    </text>
+
+
+
+
+
+
+
+    <rect x="60" y="-10" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="65" y="5" font-size="15">Slave 1</text>
+
+    <rect x="65" y="72" width="20" height="8" fill="brown" stroke="black">
+      <animate begin="byte0.begin" end="dbyte0.begin+3.5625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="65" y="64" width="20" height="8" fill="brown" stroke="black">
+      <animate begin="byte0.begin" end="dbyte1.begin+3.5625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="65" y="56" width="20" height="8" fill="brown" stroke="black">
+      <animate begin="byte0.begin" end="dbyte2.begin+3.5625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="65" y="48" width="20" height="8" fill="brown" stroke="black">
+      <animate begin="byte0.begin" end="dbyte3.begin+3.5625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    
+
+    <rect x="95" y="72" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte3.begin+3.5625s" attributeName="fill" keyTimes="0" values="lightblue" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="64" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte2.begin+3.5625s" attributeName="fill" keyTimes="0" values="lightblue" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="56" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte1.begin+3.5625s" attributeName="fill" keyTimes="0" values="lightblue" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="48" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte0.begin+3.5625s" attributeName="fill" keyTimes="0" values="lightblue" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+
+    <path id="inbytepath" stroke="none" stroke-width="2" fill="none" d="M105,76               A11,24 0 0,0 94,100"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="lightblue" stroke="black">
+      <animateMotion id="inbyte0" begin="dbyte0.begin+3.5625s" dur="0.15s" repeatCount="4" rotate="auto">
+            <mpath xlink:href="#inbytepath"/>
+        </animateMotion>
+    </rect>
+
+    <path id="outbytepath" stroke="none" stroke-width="2" fill="none" d="M86,100               A11,24 0 0,0 75,76"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="brown" stroke="black">
+      <animateMotion id="outbyte0" begin="dbyte0.begin+3.5625s" dur="0.15s" repeatCount="4" rotate="auto">
+            <mpath xlink:href="#outbytepath"/>
+        </animateMotion>
+    </rect>
+
+
+
+
+
+
+
+
+    <rect x="180" y="-10" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="185" y="5" font-size="15">Slave 2</text>
+
+    <rect x="185" y="72" width="20" height="8" fill="orange" stroke="black">
+      <animate begin="byte0.begin" end="dbyte4.begin+5.8125s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+    <rect x="215" y="72" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte4.begin+5.8125s" attributeName="fill" keyTimes="0" values="blue" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+    <path id="inbytepath2" stroke="none" stroke-width="2" fill="none" d="M225,76               A11,24 0 0,0 214,100"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="blue" stroke="black">
+      <animateMotion begin="dbyte4.begin+5.8125s" dur="0.15s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#inbytepath2"/>
+        </animateMotion>
+    </rect>
+
+    <path id="outbytepath2" stroke="none" stroke-width="2" fill="none" d="M206,100               A11,24 0 0,0 195,76"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="orange" stroke="black">
+      <animateMotion begin="dbyte4.begin+5.8125s" dur="0.15s" repeatCount="1" rotate="auto">
+            <mpath xlink:href="#outbytepath2"/>
+        </animateMotion>
+    </rect>
+
+
+
+
+
+
+    <rect x="300" y="-10" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="305" y="5" font-size="15">Slave 3</text>
+
+    <rect x="310" y="72" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte5.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="64" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte6.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="56" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte7.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="48" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte8.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="40" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte9.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="32" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte10.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="24" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte11.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="310" y="16" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte12.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="72" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte13.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="64" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte14.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="56" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte15.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="48" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte16.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="40" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte17.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="32" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte18.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="24" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte19.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="330" y="16" width="20" height="8" fill="red" stroke="black">
+      <animate begin="byte0.begin" end="dbyte20.begin+8.0625s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+    <path id="outbytepath3" stroke="none" stroke-width="2" fill="none" d="M330,100               A10,24 0 0,0 320,76"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="red" stroke="black">
+      <animateMotion id="outbyte3" begin="dbyte5.begin+8.0625s" dur="0.15s" repeatCount="16" rotate="auto">
+            <mpath xlink:href="#outbytepath3"/>
+        </animateMotion>
+    </rect>
+
+    <rect x="420" y="-10" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="425" y="5" font-size="15">Slave 4</text>
+
+    <rect x="430" y="72" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte12.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="64" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte11.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="56" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte10.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="48" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte9.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="40" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte8.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="32" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte7.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="24" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte6.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="430" y="16" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte5.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="72" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte20.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="64" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte19.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="56" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte18.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="48" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte17.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="40" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte16.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="32" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte15.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="24" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte14.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="450" y="16" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte13.begin+10.3125s" attributeName="fill" keyTimes="0" values="cyan" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+    <path id="inbytepath4" stroke="none" stroke-width="2" fill="none" d="M460,76               A10,24 0 0,0 450,100"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="cyan" stroke="black">
+      <animateMotion id="inbyte4" begin="dbyte5.begin+10.3125s" dur="0.15s" repeatCount="16" rotate="auto">
+            <mpath xlink:href="#inbytepath4"/>
+        </animateMotion>
+    </rect>
+
+
+
+
+
+    <rect x="180" y="200" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="185" y="355" font-size="15">Slave 5</text>
+
+    <rect x="185" y="270" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte28.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="278" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte27.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="286" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte26.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="294" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte25.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="302" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte24.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="310" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte23.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="318" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte22.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="185" y="326" width="20" height="8" fill="white" stroke="black">
+      <animate begin="byte0.begin" end="dbyte21.begin+17.835s" attributeName="fill" keyTimes="0" values="green" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+
+    <rect x="215" y="270" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte21.begin+17.835s" attributeName="fill" keyTimes="0" values="white" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="278" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte22.begin+17.835s" attributeName="fill" keyTimes="0" values="white" dur="30.3s" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="286" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte23.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="294" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte24.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="302" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte25.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="310" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte26.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="318" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte27.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="215" y="326" width="20" height="8" fill="purple" stroke="black">
+      <animate begin="byte0.begin" end="dbyte28.begin+17.835s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+
+    <path id="outbytepath5" stroke="none" stroke-width="2" fill="none" d="M214,250               A11,24 0 0,0 225,274"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="green" stroke="black">
+      <animateMotion begin="dbyte21.begin+17.835s" dur="0.15s" repeatCount="8" rotate="auto">
+            <mpath xlink:href="#inbytepath5"/>
+        </animateMotion>
+    </rect>
+
+    <path id="inbytepath5" stroke="none" stroke-width="2" fill="none" d="M195,274               A11,24 0 0,0 206,250"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="purple" stroke="black">
+      <animateMotion begin="dbyte21.begin+17.685s" dur="0.15s" repeatCount="8" rotate="auto">
+            <mpath xlink:href="#outbytepath5"/>
+        </animateMotion>
+    </rect>
+
+
+
+
+
+    <rect x="60" y="200" width="60" height="160" fill="white" stroke="black" fill-opacity="0.5"/>
+    <text x="65" y="355" font-size="15">Slave 6</text>
+
+    <rect x="95" y="270" width="20" height="8" fill="magenta" stroke="black">
+      <animate begin="byte0.begin" end="dbyte29.begin+20.235s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="278" width="20" height="8" fill="magenta" stroke="black">
+      <animate begin="byte0.begin" end="dbyte30.begin+20.235s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="286" width="20" height="8" fill="magenta" stroke="black">
+      <animate begin="byte0.begin" end="dbyte31.begin+20.235s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="294" width="20" height="8" fill="magenta" stroke="black">
+      <animate begin="byte0.begin" end="dbyte32.begin+20.235s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+    <rect x="95" y="302" width="20" height="8" fill="magenta" stroke="black">
+      <animate begin="byte0.begin" end="dbyte33.begin+20.235s" attributeName="fill" keyTimes="0" values="white" repeatCount="1" calcMode="discrete"/>
+    </rect>
+
+    <path id="outbytepath6" stroke="none" stroke-width="2" fill="none" d="M90,250               A15,24 0 0,0 105,274"/>
+
+    <rect x="-10" y="-4" width="20" height="8" fill="magenta" stroke="black">
+      <animateMotion begin="dbyte29.begin+20.185s" dur="0.15s" repeatCount="5" rotate="auto">
+            <mpath xlink:href="#outbytepath6"/>
+        </animateMotion>
+    </rect>
+
+
+    <rect x="-105" y="-10" width="116" height="160" fill="white" stroke="black"/>
+    <text x="-90" y="5" font-size="15">Master</text>
+
+    <rect x="-100" y="180" width="20" height="8" fill="lightblue" stroke="black"/>
+    <text x="-75" y="188" font-size="12">Slave 1 input byte</text>
+
+    <rect x="-100" y="200" width="20" height="8" fill="blue" stroke="black"/>
+    <text x="-75" y="208" font-size="12">Slave 2 input byte</text>
+
+    <rect x="-100" y="220" width="20" height="8" fill="cyan" stroke="black"/>
+    <text x="-75" y="228" font-size="12">Slave 4 input byte</text>
+
+    <rect x="-100" y="240" width="20" height="8" fill="green" stroke="black"/>
+    <text x="-75" y="248" font-size="12">Slave 5 input byte</text>
+
+
+    <rect x="-100" y="270" width="20" height="8" fill="brown" stroke="black"/>
+    <text x="-75" y="278" font-size="12">Slave 1 output byte</text>
+
+    <rect x="-100" y="290" width="20" height="8" fill="orange" stroke="black"/>
+    <text x="-75" y="298" font-size="12">Slave 2 output byte</text>
+
+    <rect x="-100" y="310" width="20" height="8" fill="red" stroke="black"/>
+    <text x="-75" y="318" font-size="12">Slave 3 output byte</text>
+
+    <rect x="-100" y="330" width="20" height="8" fill="purple" stroke="black"/>
+    <text x="-75" y="338" font-size="12">Slave 5 output byte</text>
+
+    <rect x="-100" y="350" width="20" height="8" fill="magenta" stroke="black"/>
+    <text x="-75" y="358" font-size="12">Slave 6 output byte</text>
+  </g>
+</g>
+</svg>

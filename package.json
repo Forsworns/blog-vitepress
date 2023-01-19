@@ -1,0 +1,43 @@
+{
+  "name": "blog-vitepress",
+  "version": "1.0.0",
+  "description": "Personal blog based on VitePress",
+  "main": "index.js",
+  "repository": "https://github.com/Forsworns/blog-vitepress",
+  "author": "Forsworns",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/katex": "^0.16.0",
+    "element-plus": "^2.2.28",
+    "feed": "^4.2.2",
+    "fs-extra": "^11.1.0",
+    "globby": "11.0.4",
+    "gray-matter": "^4.0.3",
+    "lottie-web": "^5.10.1",
+    "markdown-it": "^13.0.1",
+    "vitepress": "1.0.0-alpha.38",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "dev": "vitepress dev blog",
+    "build": "vitepress build blog",
+    "preview": "vitepress preview blog",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0",
+    "katex": "^0.16.4",
+    "lodash.debounce": "^4.0.8"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
+  }
+}

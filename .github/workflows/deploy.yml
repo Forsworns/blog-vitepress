@@ -1,0 +1,63 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Secrets
+        env:
+          SECRET_FILE: blog/.vitepress/secret.ts
+        run: |
+          echo export const GITALK_ID = \'${{ secrets.GITALK_ID }}\';      >> ${SECRET_FILE}
+          echo export const GITALK_SECRET = \'${{ secrets.GITALK_SECRET }}\';  >> ${SECRET_FILE}
+          echo export const ALGOLIA_ID = \'${{ secrets.ALGOLIA_ID }}\';      >> ${SECRET_FILE}
+          echo export const ALGOLIA_SECRET = \'${{ secrets.ALGOLIA_SECRET }}\';  >> ${SECRET_FILE}
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.13.0'
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7.25.0
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build the project
+        run: pnpm build
+
+      - name: Deploy
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: "blog/.vitepress/dist"
+          destination-github-username: "Forsworns"
+          destination-repository-name: "Forsworns.github.io"
+          user-email: ${{ secrets.MAIL }}
+          target-branch: master
