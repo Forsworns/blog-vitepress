@@ -140,6 +140,7 @@ async function configs() {
       latestNum: 2,
       // gitalk comments configurations
       gitalk: {
+        admin: ["Forsworns"],
         repo: 'blog-vitepress',
         clientID: SECRETS.GITALK_ID,
         clientSecret: SECRETS.GITALK_SECRET,

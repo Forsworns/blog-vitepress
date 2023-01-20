@@ -12,8 +12,7 @@ const { theme } = useData();
 const lang = location.href.includes('/zh/') ? 'zh-CN' : 'en';
 
 const gitalk = new Gitalk({
-  ...theme.value.gitalk.repo,
-  admin: ["Forsworns"],
+  ...theme.value.gitalk,
   id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
   language: lang,
   distractionFreeMode: true, // Facebook-like distraction free mode
