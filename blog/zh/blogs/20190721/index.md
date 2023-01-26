@@ -18,7 +18,7 @@ https://github.com/Forsworns/blog
 
 现在的样式还是默认的，改进的空间也太大了。
 
-![](./embarrassed.jpg)
+![](/assets/embarrassed.jpg)
 
 
 
