@@ -148,7 +148,7 @@ async function configs() {
       },
       // algolia search configurations
       algolia: {
-        indexName: 'blog',
+        indexName: 'forswornsio',
         appId: SECRETS.ALGOLIA_ID,
         apiKey: SECRETS.ALGOLIA_SECRET,
       },
