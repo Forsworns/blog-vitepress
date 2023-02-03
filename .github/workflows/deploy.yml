@@ -15,10 +15,10 @@ jobs:
         env:
           SECRET_FILE: blog/.vitepress/secret.ts
         run: |
-          echo export const GITALK_ID = \'${{ secrets.GITALK_ID }}\';      >> ${SECRET_FILE}
-          echo export const GITALK_SECRET = \'${{ secrets.GITALK_SECRET }}\';  >> ${SECRET_FILE}
-          echo export const ALGOLIA_ID = \'${{ secrets.ALGOLIA_ID }}\';      >> ${SECRET_FILE}
-          echo export const ALGOLIA_SECRET = \'${{ secrets.ALGOLIA_SECRET }}\';  >> ${SECRET_FILE}
+          echo "export const GITALK_ID = '${{ secrets.GITALK_ID }}';"      >> ${SECRET_FILE}
+          echo "export const GITALK_SECRET = '${{ secrets.GITALK_SECRET }}';"  >> ${SECRET_FILE}
+          echo "export const ALGOLIA_ID = '${{ secrets.ALGOLIA_ID }}';"      >> ${SECRET_FILE}
+          echo "export const ALGOLIA_SECRET = '${{ secrets.ALGOLIA_SECRET }}';"  >> ${SECRET_FILE}
 
       - uses: actions/setup-node@v3
         with:
