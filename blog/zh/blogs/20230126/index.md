@@ -171,3 +171,8 @@ Mellonox 在使用 MACVLAN 拆分物理设备成虚拟设备，依赖 VLAN 分�
 
 HyV 和 VMM-bypass I/O 的设计和 FreeFlow 类似，但是有性能问题。VMware 的半虚拟化 vRDMA 设备专用与它自己的 hypervisor 和 VM，和这里容器场景不同。
 
+## 源码阅读
+
+本来想了解下 shadow memory 的设计来着，看论文描述就是直接用了共享内存
+
+源码阅读，咕咕咕

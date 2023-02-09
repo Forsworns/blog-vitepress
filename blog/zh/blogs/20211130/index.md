@@ -4,7 +4,7 @@ description: 为 Sentinel-Rust 添加 k8s 数据源支持时，用 kube-rs 的�
 tags: 
 - Rust
 - 云原生
-- 一点趣事
+- 杂谈
 - Sentinel
 ---
 

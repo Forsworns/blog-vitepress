@@ -2,7 +2,7 @@
 title: Wifi连接受到的电磁干扰
 description: 奇怪的知识增加了
 tags: 
-- 一点趣事
+- 杂谈
 ---
 
 
