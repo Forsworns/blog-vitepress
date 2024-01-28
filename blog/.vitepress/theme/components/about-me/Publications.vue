@@ -10,6 +10,8 @@ const _ = defineProps<{
 }>();
 
 const papers = [
+  "J. Li, P. Yang, L. Kong, G. Chen. “A BPF-Based Task Scheduling Scheme for Heterogeneous Multiprocessor Systems”. IEEE ISPA, Wuhan, China, 2023.",
+  "J. Lei, P. Yang, L. Kong, Y. Ma, X. Lu, D. Lin, G. Chen, E. Zhao. “ACORN: Adaptive Compression-Reconstruction for Video Services in 5G-U Industrial IoT”. IEEE MSN, Nanjing, China, 2023.",
   "P. Yang, J. Lei, L. Kong, C. Xu, P. Zeng, E. Khorov. “Policy Learning based Cognitive Radio for Unlicensed Cellular Communication”. IEEE GLOBECOM, Rio de Janeiro, Brazil, 2022.",
   "G. Sibul, P. Yang, D. Muravev, J. Jin, L. Kong. “Revealing the true navigability of the Northern Sea Route from ice conditions and weather observations”. Maritime Policy & Management (MPM). 2022.",
   "P. Yang, L. Kong, G. Chen. “Spectrum sharing for 5G/6G URLLC: Research frontiers and standards”. IEEE Communications Standards Magazine (ComSoC), 2022.",

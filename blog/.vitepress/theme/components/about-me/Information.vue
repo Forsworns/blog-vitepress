@@ -1,14 +1,17 @@
 <template>
   <div v-if="props.lang === 'cn'">
     <p>
-      目前专注于云原生，从前从事过图像复原相关研究，也了解过金融的一些常识，希望自己保持好奇心 :)
+      目前在做 GPU 虚拟化等工作，从前从事过网络、AI 相关研究，啥都懂一点 :)
+    </p>
+    <p>
+      <i class="icon ion-briefcase"></i> 阿里云智能 基础软件部 GPU 虚拟化 (23-)。
     </p>
     <p>
       <i class="icon ion-university"></i> 上海交通大学 计算机科学与工程系
-      硕士研究生在读 (20-)。
+      硕士研究生在读 (20-23)。
     </p>
     <p>
-      <i class="icon ion-briefcase"></i> 阿里云智能 基础产品事业部 实习生 容器网络 (22)。
+      <i class="icon ion-briefcase"></i> 阿里云智能 基础软件部 实习生 容器网络 (22)。
     </p>
     <p>
       <i class="icon ion-briefcase"></i> 字节跳动 产品研发和工程架构部 实习生 DPDK驱动 (22)。
@@ -30,7 +33,7 @@
   </div>
   <div v-else>
     <p>
-      Currently focusing on networking technologies. Previously engaged in image restoration. Hungry and Humble :)
+      Currently work on GPU virtualization. Previously engaged in Network and AI. Hungry and Humble :)
     </p>
     <p>
       <i class="icon ion-university"></i> Shanghai Jiao Tong University,
