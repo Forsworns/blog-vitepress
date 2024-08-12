@@ -7,7 +7,10 @@ tags:
 
 [[toc]]
 
-我有一个命令行应用是这么写的
+TL;DR
+> 守护进程应该参考 [nvidia-persistenced](https://github.com/NVIDIA/nvidia-persistenced/blob/a17da42d9f5e0db228e9e95eb604fad4f06f8a5f/nvidia-persistenced.c#L740) 去写
+
+我有一个命令行应用，想要实现成守护进程，是这么写的
 
 ```rust
 use nix::unistd::{ForkResult, fork};
@@ -90,4 +93,6 @@ fn main() {
 	}
 }
 ```
+
+
 
