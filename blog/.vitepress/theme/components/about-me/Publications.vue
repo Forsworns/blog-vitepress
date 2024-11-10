@@ -10,6 +10,7 @@ const _ = defineProps<{
 }>();
 
 const papers = [
+  "J. Lei, P. Yang, L. Kong, Y. Ma, D. Lin, G. Chen, E. Zhao. “ACORN+: Adaptive Compression-Reconstruction for Device-Cloud Collaboration Video Services”. ACM Transactions on Autonomous and Adaptive Systems (TAAS), 2024.",
   "Z. Wang, H. Hu, L. Kong, X. Kang, Q. Xiang, J. Li, Y. Lu, Z. Song, P. Yang, J. Wu, Y. Yang, T. Ma, Z. Liu, X. Zeng, D. Cai, G. Chen. “Diagnosing Application-network Anomalies for Millions of IPs in Production Clouds”. USENIX ATC, CA, USA, 2024.",
   "J. Li, P. Yang, L. Kong, G. Chen. “A BPF-Based Task Scheduling Scheme for Heterogeneous Multiprocessor Systems”. IEEE ISPA, Wuhan, China, 2023.",
   "J. Lei, P. Yang, L. Kong, Y. Ma, X. Lu, D. Lin, G. Chen, E. Zhao. “ACORN: Adaptive Compression-Reconstruction for Video Services in 5G-U Industrial IoT”. IEEE MSN, Nanjing, China, 2023.",

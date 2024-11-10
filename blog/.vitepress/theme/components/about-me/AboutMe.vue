@@ -51,6 +51,7 @@
 import Information from "./Information.vue";
 import Honors from "./Honors.vue";
 import Publications from "./Publications.vue";
+import Patents from "./Patents.vue";
 import Interests from "./Interests.vue";
 import Mottos from "./Mottos.vue";
 
@@ -64,7 +65,7 @@ const props = defineProps<{
   lang: 'cn' | 'en'
 }>();
 
-const components: { [index: string]: any } = [Information, Honors, Publications, Interests];
+const components: { [index: string]: any } = [Information, Honors, Publications, Patents, Interests];
 
 let activeTab: Ref<string> = ref('0');
 
@@ -89,6 +90,7 @@ const data = {
       "个人信息",
       "奖项列表",
       "论文列表",
+      "发明专利",
       "兴趣爱好",
     ],
   },
@@ -105,6 +107,7 @@ const data = {
       "Information",
       "Honors",
       "Publications",
+      "Patents",
       "Interests",
     ],
   }
