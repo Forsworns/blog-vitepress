@@ -8,16 +8,15 @@
   "license": "MIT",
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
-    "@types/katex": "^0.16.0",
-    "element-plus": "^2.2.28",
+    "element-plus": "^2.14.6",
     "feed": "^4.2.2",
     "fs-extra": "^11.1.0",
     "globby": "11.0.4",
     "gray-matter": "^4.0.3",
     "lottie-web": "^5.10.1",
-    "markdown-it": "^13.0.1",
-    "vitepress": "1.0.0-alpha.38",
-    "vue": "^3.2.45"
+    "markdown-it": "^14.2.0",
+    "vitepress": "1.6.4",
+    "vue": "^3.5.13"
   },
   "scripts": {
     "dev": "vitepress dev blog",
@@ -26,8 +25,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "gitalk": "^1.8.0",
-    "katex": "^0.16.4",
+    "katex": "^0.18.9",
     "lodash.debounce": "^4.0.8"
   },
   "pnpm": {

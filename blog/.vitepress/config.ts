@@ -7,6 +7,17 @@ import MarkdownIt from "markdown-it";
 async function configs() {
   return {
     title: "Sharlayan",
+    // VitePress 1.x makes dead links fatal, where the alpha only warned. These two
+    // are pre-existing content bugs, allowlisted individually so the check stays
+    // active for every other link.
+    ignoreDeadLinks: [
+      // zh/blogs/20210311/index.md: URL scheme is missing, so it resolves
+      // relative to the current page
+      (link: string) => link.includes("polycube-network.readthedocs.io"),
+      // zh/blogs/20210715/index.md: the 8.1MB eBPF.pptx lives in the content
+      // dir and is not tracked as a page or asset by VitePress
+      (link: string) => link.endsWith("eBPF.pptx"),
+    ],
     head: [
       // live2d widget
       [
@@ -21,7 +32,7 @@ async function configs() {
         {
           rel: "stylesheet",
           href:
-            "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css",
+            "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.18.9/katex.min.css",
         },
       ],
       // markdown-it 
@@ -138,13 +149,12 @@ async function configs() {
       blogs: await getBlogs(),
       // select two latest posts to display on the index page
       latestNum: 2,
-      // gitalk comments configurations
-      gitalk: {
-        admin: ["Forsworns"],
-        repo: 'blog-vitepress',
-        clientID: SECRETS.GITALK_ID,
-        clientSecret: SECRETS.GITALK_SECRET,
-        owner: "Forsworns",
+      // utterances comments configurations
+      // unlike gitalk, utterances needs no OAuth client id/secret
+      utterances: {
+        repo: "Forsworns/blog-vitepress",
+        issueTerm: "pathname",
+        label: "Comment",
       },
       // algolia search configurations
       algolia: {

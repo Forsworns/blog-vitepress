@@ -1,28 +1,38 @@
 <template>
-  <div id="gitalk-container"></div>
+  <div ref="container" class="utterances-container"></div>
 </template>
+
 <script lang="ts" setup>
-import "gitalk/dist/gitalk.css";
-import Gitalk from "gitalk";
-import { onMounted } from "vue";
+import { onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { useData } from "vitepress";
 
-const { theme } = useData();
+const { theme, isDark } = useData();
+const container = ref<HTMLElement>();
+let script: HTMLScriptElement | null = null;
 
-const lang = location.href.includes('/zh/') ? 'zh-CN' : 'en';
+// utterances renders into a shadow root appended next to its <script>, so a
+// theme switch requires tearing the instance down and re-inserting it.
+function load() {
+  if (!container.value) return;
+  script?.remove();
+  script = null;
+  container.value.replaceChildren();
 
-const gitalk = new Gitalk({
-  ...theme.value.gitalk,
-  id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
-  language: lang,
-  distractionFreeMode: true, // Facebook-like distraction free mode
-});
+  const cfg = theme.value.utterances ?? {};
+  const el = document.createElement("script");
+  el.src = "https://utteranc.es/client.js";
+  el.async = true;
+  el.crossOrigin = "anonymous";
+  el.setAttribute("repo", cfg.repo ?? "Forsworns/blog-vitepress");
+  el.setAttribute("issue-term", cfg.issueTerm ?? "pathname");
+  el.setAttribute("label", cfg.label ?? "Comment");
+  el.setAttribute("theme", isDark.value ? "github-dark" : "github-light");
 
-onMounted(() => {
-  gitalk.render("gitalk-container");
-});
+  container.value.appendChild(el);
+  script = el;
+}
+
+onMounted(load);
+watch(isDark, load);
+onBeforeUnmount(() => script?.remove());
 </script>
-<style scoped>
-
-</style>
-
