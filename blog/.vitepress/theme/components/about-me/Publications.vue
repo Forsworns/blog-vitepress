@@ -1,5 +1,11 @@
 <template>
-  <p v-for="(item, idx) in papers" :key="idx">[{{ idx + 1 }}] {{ item }}</p>
+  <p v-for="row in rows" :key="row.n">
+    <span>[{{ row.n }}] </span>
+    <template v-for="(seg, i) in row.segments" :key="i">
+      <b v-if="seg.bold">{{ seg.text }}</b>
+      <template v-else>{{ seg.text }}</template>
+    </template>
+  </p>
 </template>
 
 
@@ -11,7 +17,7 @@ const _ = defineProps<{
 
 const papers = [
   "P. Yang, T. Ma, T. Zhu, Y. Su, Z. Yu., Z. Wu, J. Zeng, S. Tan, Z. Liu, T. Ma. “Mercury: Practical User-Space API Remoting for Secure Containers in Public Clouds”. The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), 2026. (CCF-A)",
-  "J. Lei, P. Yang, L. Kong, Y. Ma, D. Lin, G. Chen, E. Zhao. “ACORN+: Adaptive Compression-Reconstruction for Device-Cloud Collaboration Video Services”. ACM Transactions on Autonomous and Adaptive Systems (TAAS), 2024. (CCF-B)",
+  "J. Lei, P. Yang, L. Kong, Y. Ma, D. Lin, G. Chen, E. Zhao. “ACORN+: Adaptive Compression-Reconstruction for Device-Cloud Collaboration Video Services”. ACM Transactions on Autonomous and Adaptive Systems (TAAS), 2025. (CCF-B)",
   "Z. Wang, H. Hu, L. Kong, X. Kang, T. Ma, Q. Xiang, J. Li, Y. Lu, Z. Song, P. Yang, J. Wu, Y. Yang, T. Ma, Z. Liu, X. Zeng, D. Cai, G. Chen. “Diagnosing Application-network Anomalies for Millions of IPs in Production Clouds”. USENIX ATC, CA, USA, 2024. (CCF-A)",
   "J. Li, P. Yang, L. Kong, G. Chen. “A BPF-Based Task Scheduling Scheme for Heterogeneous Multiprocessor Systems”. IEEE ISPA, Wuhan, China, 2023.",
   "J. Lei, P. Yang, L. Kong, Y. Ma, X. Lu, D. Lin, G. Chen, E. Zhao. “ACORN: Adaptive Compression-Reconstruction for Video Services in 5G-U Industrial IoT”. IEEE MSN, Nanjing, China, 2023.",
@@ -22,5 +28,20 @@ const papers = [
   "P. Yang, L. Kong, X.-Y. Liu, X. Yuan, G. Chen. “Shearlet Enhanced Snapshot Compressive Imaging”. IEEE Transactions on Image Processing (TIP), Vol. 29, pp. 6466-6481, 2020. (CCF-A)",
   "P. Yang, L. Kong, G. Chen, J. Shi, G. Zeng. “Cloud based Sparse Random Projection for Compressed Imaging”. IEEE SmartCloud, Tokyo, Japan, 2019. (Best Paper Award)",
 ];
+
+// Tokens rendered in bold: the author's own name, and CCF-A venues. The
+// papers stay plain strings, so highlighting is derived rather than hand
+// written into the data.
+const EMPHASISED = ["P. Yang", "CCF-A"];
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const EMPHASISED_RE = new RegExp(`(${EMPHASISED.map(escapeRe).join("|")})`, "g");
+
+const rows = papers.map((text, i) => ({
+  n: i + 1,
+  segments: text
+    .split(EMPHASISED_RE)
+    .filter((s) => s !== "")
+    .map((s) => ({ text: s, bold: EMPHASISED.includes(s) })),
+}));
 
 </script>

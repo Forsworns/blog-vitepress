@@ -8,7 +8,7 @@
     </p>
     <p>
       <i class="icon ion-university"></i> 上海交通大学 计算机科学与工程系
-      硕士研究生在读 (20-23)。
+      硕士研究生 (20-23)。
     </p>
     <p>
       <i class="icon ion-briefcase"></i> 阿里云智能 基础软件部 实习生 容器网络 (22)。
@@ -36,8 +36,11 @@
       Currently work on GPU virtualization. Previously engaged in Network and AI. Hungry and Humble :)
     </p>
     <p>
+      <i class="icon ion-briefcase"></i> Alibaba Cloud, Infrastructure, GPU Virtualization (23-).
+    </p>
+    <p>
       <i class="icon ion-university"></i> Shanghai Jiao Tong University,
-      Department of Computer Science and Engineering, Pursing MA.SC. (20-).
+      Department of Computer Science and Engineering, MA.SC. (20-23).
     </p>
     <p>
       <i class="icon ion-briefcase"></i> Alibaba Cloud, Infrastructure, Intern, Container Networking (22).
